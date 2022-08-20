@@ -2,11 +2,15 @@
 
 @font-face {
   font-family: "Bower";
-  src: url('fonts/fira/eot/FiraSans-Regular.eot');
-  src: url('fonts/fira/eot/FiraSans-Regular.eot') format('embedded-opentype'),
-       url('fonts/fira/woff2/FiraSans-Regular.woff2') format('woff2'),
-       url('fonts/fira/woff/FiraSans-Regular.woff') format('woff'),
-       url('fonts/fira/woff2/FiraSans-Regular.ttf') format('truetype');
+  src: url('../bower-font/McKinseySans-Regular.woff2');
+  src: 
+      url('../bower-font/Bower-Bold.woff2') format('woff2'),
+      url('../bower-font/McKinseySans-Regular.woff2') format('woff2'),
+      url('../bower-font/McKinseySans-Italic.woff2') format('woff2'),
+      url('../bower-font/McKinseySans-Light.woff2') format('woff2'),
+      url('../bower-font/McKinseySans-LightItalic.woff2') format('woff2'),
+      url('../bower-font/McKinseySans-Medium.woff2') format('woff2'),
+      url('../bower-font/McKinseySans-MediumItalic.woff2') format('woff2');
 }
 
 .logo {
