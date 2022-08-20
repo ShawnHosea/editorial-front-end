@@ -1,3 +1,4 @@
+const Logo = require('./components/logo.js')
 
 module.exports = function header(props = {}) {
   
@@ -19,7 +20,6 @@ module.exports = function header(props = {}) {
         items-center
         justify-between
         top0
-        bg-p4
       " 
     >
     <div class="flex items-center justify-between w-full pr1 pl1">
@@ -36,7 +36,7 @@ module.exports = function header(props = {}) {
           font-bold
         "
       >
-      Goodreads Bookcase
+      ${Logo({ classes: 'logo' })}
       </a>
       </div>
       </header>

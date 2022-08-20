@@ -1,71 +1,15 @@
 /* Global */
 
-
-.wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  column-gap: 0.875rem;
-  height: 100vh;
-}
-.btn {
-  background-color:#ffd766;
-  color:#382110;
-  padding: .7rem;
-  cursor: pointer;
-  border-radius:4px;
-  font-size:0.75rem;
-  font-weight:500;
-  text-transform:uppercase;
-  animation-duration: 4s;
-  animation-fill-mode: forwards;
-  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
-  transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
-}
-.btn:hover {
-  opacity:0.75;
-  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.2));
-  transform: translateY(-9px);
+@font-face {
+  font-family: "Bower";
+  src: url('fonts/fira/eot/FiraSans-Regular.eot');
+  src: url('fonts/fira/eot/FiraSans-Regular.eot') format('embedded-opentype'),
+       url('fonts/fira/woff2/FiraSans-Regular.woff2') format('woff2'),
+       url('fonts/fira/woff/FiraSans-Regular.woff') format('woff'),
+       url('fonts/fira/woff2/FiraSans-Regular.ttf') format('truetype');
 }
 
-.input {
-  padding: .6rem;
-  box-shadow: none;
-  border: 1px solid #cecece;
-  border-radius:4px;
+.logo {
+  height: 5rem;
 }
 
-/* bookCase */
-
-.bookCase {
-
-}
-
-.shadow-card {
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.5s;
-}
-.shadow-card:hover {
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
-}
-.shadow-card:active {
-  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.4);
-}
-.boxshadow {
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
-}
-
-.transition-transform {
-  transition: transform 0.15s ease-out
-}
-.transition-background-x {
-  transition: background-position-x 0.5s cubic-bezier(.16,.7,.19,1.04);
-}
-.transform-scale-hover:hover {
-  transform: scale(1.005);
-  transition: transform 0.5s cubic-bezier(.16,.7,.19,1.04);
-}
-.transform-scale-active:active {
-  transform: scale(1);
-  transition: transform 0.15s cubic-bezier(.16,.7,.19,1.04);
-}

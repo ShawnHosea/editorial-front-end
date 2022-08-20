@@ -8,7 +8,7 @@ return `
 <!DOCTYPE html>
 <html lang="en">
     ${Head(props)}
-<body class="font-sans">
+<body class="font-bower">
     <div>
         ${header(props)}
         ${main(props)}
