@@ -7,7 +7,7 @@ module.exports = function Logo (props = {}) {
  preserveAspectRatio="xMidYMid meet">
 
 <g transform="translate(0.000000,483.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
+fill="#ffffff" stroke="none">
 <path d="M200 3520 c0 -15 7 -20 25 -20 14 0 37 -11 50 -25 l25 -24 0 -329 c0
 -369 0 -366 -70 -381 -21 -4 -36 -14 -38 -24 -3 -15 10 -17 133 -17 123 0 136
 2 133 17 -2 10 -17 20 -38 24 -70 15 -70 14 -70 367 0 173 2 313 5 310 2 -2

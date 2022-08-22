@@ -7,13 +7,13 @@ module.exports = function header(props = {}) {
     <div
     class="
     h-full
+    z1
+    absolute
     "
     >
       <header
       class="
         z1
-        pt0
-        pb0
         sticky
         relative-lg
         flex

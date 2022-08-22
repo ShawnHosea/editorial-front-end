@@ -5,9 +5,9 @@
   --p0:#000000;/* Medium Aquamarine light */
   --p1:#ffffff;/* Bright Navy Blue light */
   --p2:hsl(267, 50%, 55%);/* Royal Purple light */
-  --p3:#E21893;/* Barbie Pink light */
-  --p4:#382110;/* Bittersweet Orange light */
-  --p5:#000000;/* Royal purple */
+  --p3:#D9C666;/* Barbie Pink light */
+  --p4:#053259;/* Bittersweet Orange light */
+  --p5:#042440;/* Royal purple */
   --g0:#FBFBFB;/* #FBFBFB */
   --g1:#E5E5E5;/* #E5E5E5 */
   --g2:#CFCFCF;/* #CFCFCF */
@@ -151,7 +151,8 @@ body {
 .bg-d1:disabled{background-color:var(--d1);}
 
 
-  /* GRADIENT */.bg-image0{background-image:linear-gradient(0.4turn, #0100ca, #00e5ff, #f50057);}/* outrun */
+/* GRADIENT */
+.bg-image0{background-image:linear-gradient(0.4turn, #0100ca, #00e5ff, #f50057);}/* outrun */
 
 
 /* BORDER */
@@ -266,6 +267,7 @@ body {
 .font-serif{font-family: Georgia, Cambria, "Times New Roman", Times, serif;}
 .font-mono{font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;}
 .font-bower{font-family: "Bower", Georgia, 'Times New Roman', Times, serif;}
+.font-bower-heading{font-family: "Bower-heading", Georgia, 'Times New Roman', Times, serif;}
 
 
 /* SIZES */
