@@ -38,6 +38,13 @@
   width: 100%;
   height: 100vh;
   color: #ffffff;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 80%,
+    50% 100%,
+    0 80%
+  );
 }
 .background2 {
   background-repeat: no-repeat;
@@ -45,7 +52,8 @@
   color: #ffffff;
 }
 .hero {
-  background-color: #042440;
+  background: rgb(4,36,64);
+background: linear-gradient(90deg, rgba(4,36,64,1) 6%, rgba(8,148,166,1) 50%, rgba(4,36,64,1) 100%);
   width: 100%;
   height: 100vh;
   opacity: .8;
@@ -67,6 +75,10 @@
 .editorial {
   display: block;
   margin: auto;
+}
+.editorial h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 .caption {
   border-left: solid #042440 .3rem;
